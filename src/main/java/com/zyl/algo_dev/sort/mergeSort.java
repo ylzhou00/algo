@@ -18,7 +18,6 @@ public class mergeSort {
             mergeSort(nums,mid+1,r);
             merge(nums,l,mid,r);
         }
-
     }
 
     private static void merge(int[] nums,int left,int mid,int right){
